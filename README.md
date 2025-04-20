@@ -1,15 +1,13 @@
 # Statistical Detetective
-Game Link- https://statisticaldetetective.streamlit.app/
-Information: 
-#Statistical Detective: The Case of the Serial Suspect
-A data-driven mystery game where players analyze crime statistics to identify suspects.
-
+***Game Link***- https://statisticaldetetective.streamlit.app/
 
 ## Game Overview
 
 ![image](https://github.com/user-attachments/assets/de122fe8-5286-4d23-8357-555a2ecdf954)
 
-Statistical Detective is an interactive web-based game that challenges players to solve crimes using data analysis skills. Players must examine crime statistics, interpret patterns, and make educated guesses about suspects' characteristics.
+A data-driven mystery game where players analyze crime statistics to identify suspects.
+Statistical Detective is an interactive web-based game that challenges players to solve crimes using data analysis skills. 
+Players must examine crime statistics, interpret patterns, and make educated guesses about suspects' characteristics.
 
 ## Features
 Three Difficulty Levels: Easy (3 attempts), Hard (2 attempts), Expert (1 attempt)
