@@ -35,7 +35,7 @@ Suspect demographics (age, gender)
 Weapons used
 Crime scene evidence
 
-## Pattern Detection:
+## Pattern Detection
 Uses KMeans clustering to identify high-risk zones
 Generates dynamic hints based on crime patterns
 Player Interaction:
