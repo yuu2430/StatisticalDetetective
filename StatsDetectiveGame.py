@@ -6,21 +6,21 @@ import random
 from datetime import datetime
 from sklearn.cluster import KMeans
 
-# Debug: Ensure Streamlit is properly imported
+# Debugging: Ensure Streamlit is properly imported
 try:
     print(f"Streamlit version: {st.__version__}")
 except NameError:
     st.error("Streamlit is not properly imported. Please ensure you're running this script with `streamlit run`.")
     st.stop()
 
-# Initialize Streamlit configuration
+# Initializing Streamlit configuration
 st.set_page_config(
     page_title="🔍 Statistical Detective",
     page_icon="🕵️",
     layout="wide"
 )
 
-# Set environment variable for KMeans (to avoid warnings)
+# Setting environment variable for KMeans (to avoid warnings)
 os.environ["OMP_NUM_THREADS"] = "1"
 
 # Custom CSS for styling
@@ -83,7 +83,7 @@ st.sidebar.write("""
 5. You have a limited number of attempts. Use them wisely!
 """)
 
-# Initialize session state
+# Initializing session state
 if "score" not in st.session_state:
     st.session_state.score = 0
 if "attempts" not in st.session_state:
