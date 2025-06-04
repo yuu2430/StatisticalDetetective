@@ -42,3 +42,6 @@ Receive gradual hints based on performance
 Make guesses about the suspect's location, age, and gender
 Have limited attempts based on difficulty level
 
+## Certificate
+[Link](https://github.com/yuu2430/StatisticalDetetective/blob/main/open%20house%20participation.pdf)
+
